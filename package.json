@@ -2,10 +2,21 @@
   "name": "typemod",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli": "ts-node src/cli/runCli.ts -p ./example/tsconfig.json"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "ian-craig",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mz": "0.0.32",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "mz": "^2.7.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
 }
