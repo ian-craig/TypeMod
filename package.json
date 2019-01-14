@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "cli": "ts-node src/cli/runCli.ts -p ./example/tsconfig.json"
+    "cli": "ts-node src/cli.ts -p ./example/tsconfig.json"
   },
   "author": "ian-craig",
   "license": "ISC",
