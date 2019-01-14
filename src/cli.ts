@@ -1,6 +1,6 @@
 import { Command } from "commander";
 import * as fs from "mz/fs";
-import { main } from "../main";
+import { main } from "./main";
 import path from "path";
 import * as ts from "typescript";
 
